@@ -27,10 +27,10 @@ public class VaadintableUI extends UI {
 		layout.setMargin(true);
 		setContent(layout);
 
-		Button button = new Button("Click Me22222");
+		Button button = new Button("Click Me1111");
 		button.addClickListener(new Button.ClickListener() {
 			public void buttonClick(ClickEvent event) {
-				layout.addComponent(new Label("Thank you for clicking222"));
+				layout.addComponent(new Label("Thank you for clicking1111"));
 			}
 		});
 		layout.addComponent(button);
